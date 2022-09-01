@@ -30,12 +30,4 @@ private String name;
 private String email;
 private String password;
 }
-@Table(name = "isbn_table")
-public class Isbn {
-@Id	
-@GeneratedValue
-private int id;
-private String name;
-private String email;
-private String password;
-}
+
